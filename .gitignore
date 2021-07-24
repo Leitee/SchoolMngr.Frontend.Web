@@ -46,3 +46,4 @@ Thumbs.db
 /.yarn
 /yarn.lock
 /.yarnrc
+/package-lock.json
