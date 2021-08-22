@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "author": "Leonardo Moreno <info@codeitcorp.com>",
   "homepage": "www.codeitcorp.com",
-  "description": "Angular reference template for business applications.",
+  "description": "Angular SPA as reference template for business applications.",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -14,7 +14,7 @@
     "start": "ng serve --open",
     "start:stag": "ng serve --configuration=staging --port=4300 --open",
     "build": "npm run clean:dist && ng build",
-    "build:github": "ng build --prod --base-href 'https://leitee.github.io/SchoolMngDemo/' && npx angular-cli-ghpages --dir=dist/school-mngr/",
+    "build:github": "ng build --prod --base-href 'https://leitee.github.io/schoolmngr/' && npx angular-cli-ghpages --dir=dist/school-mngr/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "lint": "ng lint",
